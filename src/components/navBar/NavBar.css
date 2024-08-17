@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbar {
+  width: 100%;
+  background-color: #1e3a8a; /* Cor de fundo azul escuro */
+  color: white;
+  padding: 1rem 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff; /* Cor do texto */
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-item {
+  color: #ffffff; /* Cor do texto */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+  font-weight: 600; /* Engrossa as letras */
+}
+
+.navbar-item:hover {
+  background-color: #bfdbfe; /* Azul claro ao passar o mouse */
+  color: #1e3a8a; /* Cor do texto ao passar o mouse */
+}
