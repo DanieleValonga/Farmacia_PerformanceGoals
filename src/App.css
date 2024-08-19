@@ -1,0 +1,24 @@
+/* App.css */
+
+/* Garante que o layout ocupe toda a altura da tela */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que o container ocupe pelo menos 100% da altura da tela */
+}
+
+.content-background {
+  flex: 1; /* Faz com que a área ocupe o espaço restante entre o navbar e o footer */
+  background-color: #f3f4f6; /* Cor de fundo para a área entre o navbar e o footer */
+  padding: 2rem; /* Adiciona algum espaço interno se necessário */
+}
+
+footer {
+  margin-top: auto; /* Garante que o footer fique na parte inferior */
+}
