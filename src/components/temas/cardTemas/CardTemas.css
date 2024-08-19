@@ -1,0 +1,72 @@
+/* src/components/cardTemas/CardTemas.css */
+
+.card-temas {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 280px;
+    margin: 0.5rem;
+  }
+
+  .card-header {
+    padding: 0.5rem;
+    background-color: #4c51bf;
+    color: #ffffff;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .card-description {
+    padding: 0.5rem; /* Padding reduzido */
+    background-color: #edf2f7; /* Fundo claro */
+    font-size: 1rem; /* Tamanho da fonte */
+    min-height: 60px; /* Altura mínima para manter a descrição visível */
+  }
+
+  .card-actions {
+    display: flex;
+    gap: 0.5rem; /* Espaço entre botões */
+    padding: 0.5rem; /* Padding reduzido */
+  }
+
+  .card-button {
+    flex: 1; /* Ocupa o espaço disponível */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove sublinhado */
+    transition: transform 0.3s ease; /* Animação para hover */
+    box-shadow: none; /* Remove qualquer sombra padrão do botão */
+  }
+
+  .card-button button {
+    border: none; /* Remove borda padrão */
+    padding: 0.5rem 1rem; /* Padding do botão */
+    font-size: 0.875rem; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    color: #ffffff; /* Cor do texto */
+    cursor: pointer; /* Muda o cursor para ponteiro */
+    background-color: #3182ce; /* Cor do fundo do botão */
+    transition: transform 0.3s ease; /* Animação para aumento */
+  }
+
+  .card-button button:hover {
+    transform: scale(1.05);
+  }
+
+  .edit-button button {
+    background-color: #3182ce;
+  }
+
+  .delete-button button {
+    background-color: #e53e3e;
+  }
+
+  .delete-button button:hover {
+    transform: scale(1.05);
+  }
