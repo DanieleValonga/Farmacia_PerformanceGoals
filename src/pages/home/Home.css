@@ -1,0 +1,63 @@
+/* Remove qualquer margem ou padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-blue-900 {
+    background-color: #1e3a8a; /* Azul escuro para o fundo */
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 1rem;
+    display: flex; /* Usa flexbox para alinhamento */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    gap: 2rem; /* Espaçamento entre o texto e a imagem */
+}
+
+.text-container {
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 2rem; /* Espaçamento interno do container de texto */
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com opacidade para destaque */
+    border-radius: 0.5rem; /* Bordas arredondadas suaves */
+    max-width: 600px; /* Largura máxima do container de texto */
+}
+
+.text-container h2 {
+    font-size: 3rem; /* Tamanho do título */
+    font-weight: bold; /* Fonte em negrito */
+    margin-bottom: 1rem; /* Espaçamento inferior do título */
+    color: #e0f0ff; /* Azul quase branco */
+}
+
+.text-container p {
+    font-size: 1.25rem; /* Tamanho do texto */
+    margin-bottom: 0.5rem; /* Espaçamento inferior dos parágrafos */
+}
+
+button {
+    border-radius: 9999px; /* Bordas arredondadas do botão */
+    background-color: white; /* Fundo branco do botão */
+    color: #1e3a8a; /* Cor do texto do botão */
+    padding: 0.5rem 1.5rem; /* Espaçamento interno do botão */
+    cursor: pointer; /* Cursor de ponteiro para o botão */
+    transition: all 0.3s; /* Transição suave para o botão */
+}
+
+button:hover {
+    background-color: #34d399; /* Fundo verde claro ao passar o mouse */
+    color: white; /* Cor do texto do botão ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento de tamanho ao passar o mouse */
+}
+
+img {
+    max-width: 100%; /* Imagem não ultrapassa a largura do contêiner */
+    height: auto; /* Altura ajusta automaticamente para manter a proporção */
+    width: 400px; /* Ajusta a largura da imagem */
+    margin-left: auto; /* Empurra a imagem para a direita */
+}
